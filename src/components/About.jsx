@@ -26,8 +26,8 @@ const About = () => {
           <p>
             I am a graduate of California State University, Long Beach with a
             B.A. in Geography and a minor in Environmental Science & Policy.
-            After working as a GIS Researcher, I obtained a certificate in
-            Front-End Development from El Camino College to grow as a developer.
+            After working as a GIS Researcher, I furthered my eduaction and obtained a certificate in
+            Front-End Development from El Camino College.
           </p>
           <p>
             Currently, I am actively seeking a full-time position in front-end
