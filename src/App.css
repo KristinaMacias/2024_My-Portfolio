@@ -40,8 +40,6 @@ section {
 
 .bottom-box h2 {
   text-transform: lowercase;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .bottom-box h4 {
