@@ -34,8 +34,8 @@ const About = () => {
             Python, and various mapping frameworks.
           </p>
           <p>
-            Currently, I am seeking my next role in front-end
-            development or as a GIS analyst/developer.
+            I am seeking my next role in front-end
+            development or as a GIS analyst/developer. Feel free to contact me via <a href="https://www.linkedin.com/in/maciaskristina/">LinkedIn</a>
           </p>
         </div>
       </div>
