@@ -30,12 +30,12 @@ const About = () => {
             Front-End Development from El Camino College.
           </p>
           <p>
-            Currently, I am actively seeking a full-time position in front-end
-            development or as a GIS analyst/developer.
-          </p>
-          <p>
             I am continually expanding my knowledge by learning PostgreSQL,
             Python, and various mapping frameworks.
+          </p>
+          <p>
+            Currently, I am actively seeking a full-time position in front-end
+            development or as a GIS analyst/developer.
           </p>
         </div>
       </div>
