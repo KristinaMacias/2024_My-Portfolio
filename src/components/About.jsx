@@ -34,7 +34,7 @@ const About = () => {
             Python, and various mapping frameworks.
           </p>
           <p>
-            Currently, I am actively seeking a full-time position in front-end
+            Currently, I am seeking my next role in front-end
             development or as a GIS analyst/developer.
           </p>
         </div>
