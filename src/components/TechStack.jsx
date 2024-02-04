@@ -23,6 +23,7 @@ const TechStack = () => {
           <h3 className="block-heading">Bootstrap</h3>
           <h3 className="block-heading">Git & GitHub</h3>
           <h3 className="block-heading">Figma</h3>
+          <h3 className="block-heading">QGIS</h3>
         </div>
       </div>
     </section>
