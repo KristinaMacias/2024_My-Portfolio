@@ -13,8 +13,8 @@ function App() {
       {/* <Nav /> */}
       <div className="main">
         <Hero />
-        <TechStack />
         <About />
+        <TechStack />
         <Testimonials />
       </div>
     </>
