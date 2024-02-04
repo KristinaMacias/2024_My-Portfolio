@@ -1,0 +1,274 @@
+/* Default font size */
+body {
+    font-family: 'flokisonregular';
+    background-color: var(--black);
+    color: var(--iris);
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    /* Default font size */
+}
+
+section {
+    padding: 0 1.3rem;
+    margin-bottom: 4rem;
+}
+
+/* Top Box */
+.top-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Bottom Box */
+.bottom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: 2px solid var(--white-smoke);
+}
+
+.text-container {
+    padding: 1.3rem;
+    background-color: var(--white-smoke);
+    border-radius: 0.1rem;
+    margin-top: 1rem;
+}
+
+.bottom-box h1 {
+    margin: 1.2rem 0 1px;
+    background-color: var(--snow);
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+
+.bottom-box h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-box h6 {
+    text-transform: lowercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}
+
+.bottom-box p {
+    font-size: clamp(1em, 2vw, 1.3em);
+    color: var(--night);
+    margin: 0.5rem 0 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0.3rem;
+    /* font not center */
+    text-align: left;
+}
+
+#special-text {
+    font-size: 3.5rem;
+    color: var(--persian-green);
+    background-color: var(--jasper);
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Button */
+.btn {
+    margin-top: 6rem;
+    background-color: var(--russian-violet);
+    padding: 0.5rem 1rem;
+    border: 3px solid var(--russian-violet);
+    border-radius: 0.2rem;
+    color: var(--white-smoke);
+    font-size: 1.7rem;
+    font-family: inherit;
+}
+
+#secondary-btn {
+    background-color: var(--white-smoke);
+    border: 3px solid var(--russian-violet);
+    color: var(--russian-violet);
+    margin-left: 1rem;
+}
+
+.btn:hover {
+    background-color: var(--dun);
+    color: var(--russian-violet);
+    cursor: pointer;
+}
+
+#secondary-btn:hover {
+    background-color: var(--dun);
+    color: var(--russian-violet);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-img {
+    width: 70%;
+    height: auto;
+    display: none;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    width: 1.8rem;
+    height: auto;
+    margin-left: 0.5rem;
+}
+
+:root {
+    --black: #000000ff;
+    --snow: #f6efeeff;
+    --persian-green: #23967fff;
+    --aureolin: #f9e900ff;
+    --iris: #5448c8ff;
+    --night: #071108ff;
+}
+
+@font-face {
+    font-family: 'flokisonregular';
+    src: url('../src/fonts/flokison-wyexv-webfont.woff2') format('woff2'),
+        url('../src//fonts/flokison-wyexv-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Media Queries */
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* small devices 667 and up */
+/* font sizes */
+
+@media (max-width: 667px) {
+    body {
+        font-size: 16px;
+    }
+
+    .bottom-box h1 {
+        font-size: 2.5rem;
+    }
+
+    .block-heading-secondary {
+        font-size: 2rem;
+    }
+
+    .bottom-box p {
+        font-size: 1rem;
+    }
+
+    .top-box h6 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+/* larger phones 768px and up */
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .bottom-box h1 {
+        font-size: 2.5rem;
+    }
+
+    .block-heading-secondary {
+        font-size: 2rem;
+    }
+
+    .bottom-box p {
+        font-size: 1rem;
+    }
+
+    .top-box h6 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+/* tablets 992px and up */
+
+@media (min-width: 992px) {
+    body {
+        font-size: 16px;
+    }
+
+    .bottom-box h1 {
+        font-size: 3rem;
+    }
+
+    .block-heading-secondary {
+        font-size: 2.5rem;
+    }
+
+    .bottom-box p {
+        font-size: 1rem;
+    }
+
+    .top-box h6 {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+}
+
+/* desktops 1200px and up */
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    .hero-section {
+        height: 100vh;
+    }
+
+    .bottom-box h1 {
+        font-size: 7rem;
+    }
+
+    .block-heading-secondary {
+        font-size: 3rem;
+    }
+
+    .bottom-box p {
+        font-size: 1.3rem;
+    }
+
+    .top-box h6 {
+        font-size: 1.5rem;
+    }
+
+    #special-text {
+        font-size: 7rem;
+    }
+
+    .btn {
+        font-size: 3rem;
+    }
+
+    .button-container {
+        display: flex;
+    }
+}

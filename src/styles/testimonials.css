@@ -1,0 +1,11 @@
+/* testimonials */
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-container {
+    background-color: var(--russian-violet);
+}
+
+
