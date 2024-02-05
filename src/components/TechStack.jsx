@@ -7,7 +7,7 @@ const TechStack = () => {
       <div className="top-box">
         <header>
           <h6>
-            <span>02 - </span>Tech Stack
+            <span>03 - </span>Tech Stack
           </h6>
           <img src={techIcon} alt="" className="icon"/>
         </header>

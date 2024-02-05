@@ -8,7 +8,7 @@ const About = () => {
       <div className="top-box">
         <header>
           <h6>
-            <span>03 - </span>About
+            <span>02 - </span>About
           </h6>
           <img className="icon" src={aboutIcon} alt="" />
         </header>
