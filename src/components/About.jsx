@@ -28,11 +28,12 @@ const About = () => {
             B.A. in Geography and a minor in Environmental Science & Policy.
             After working as a GIS Researcher, I furthered my eduaction and obtained a certificate in
             Front-End Development from El Camino College.
-          </p>
-          <p>
+
             I am continually expanding my knowledge by learning PostgreSQL,
             Python, and various mapping frameworks.
+
           </p>
+
           <p>
             I am seeking my next role in front-end
             development or as a GIS analyst/developer. Feel free to contact me via <a href="https://www.linkedin.com/in/maciaskristina/">LinkedIn</a>.

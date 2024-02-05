@@ -1,6 +1,9 @@
 import React from "react";
 import "../styles/tech.css"; // Update the CSS file name accordingly
 import techIcon from "../assets/icons/code.svg";
+import code from "../assets/icons/code.svg";
+
+
 const TechStack = () => {
   return (
     <section className="tech-section">
@@ -25,6 +28,7 @@ const TechStack = () => {
           <h3 className="block-heading">Figma</h3>
           <h3 className="block-heading">QGIS</h3>
         </div>
+        {/* <img src={code} alt="" className="content-img" /> */}
       </div>
     </section>
   );
