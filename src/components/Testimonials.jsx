@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="top-box">
         <header>
           <h6>
-            <span>04 - </span>Reccomendations
+            <span>04 - </span>Recommendations
           </h6>
           <img src={reccomendationIcon} alt="" className="icon" />
         </header>
