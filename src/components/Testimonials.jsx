@@ -17,10 +17,15 @@ const Testimonials = () => {
         </header>
       </div>
       <div className="bottom-box">
-          <h2 className="block-heading-secondary" id="testimonials-heading">
-            Say What . . . ?!
-          </h2>
+          <img
+            src={testimonialIcon}
+            alt="Speech Bubble Icon"
+            className="content-img"
+          />
           <div className="text-container">
+          <h2 className="block-heading-secondary" id="testimonials-heading">
+          Say What . . . ?!
+        </h2>
             {testimonials.content.map((testimonial) => (
               <div key={testimonial.id}>
                 <p>"{testimonial.highlight}"</p>

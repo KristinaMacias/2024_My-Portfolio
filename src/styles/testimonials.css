@@ -4,8 +4,9 @@
     flex-direction: column;
 }
 
-.testimonial-container {
-    background-color: var(--russian-violet);
+
+.testimonials-section .bottom-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-
-

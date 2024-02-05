@@ -40,6 +40,8 @@ section {
 
 .bottom-box h2 {
   text-transform: lowercase;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .bottom-box h4 {
@@ -103,9 +105,10 @@ a {
 }
 
 .content-img {
-  width: 70%;
+  width: 40%;
   height: auto;
   display: none;
+  margin-right: 1rem;
 }
 
 header {
@@ -126,8 +129,6 @@ header {
   --night: #071108ff;
   --dun: #E0CBA8;
 }
-
-
 
 
 @font-face {
@@ -255,6 +256,10 @@ header {
   .btn {
     font-size: 3.2rem;
   }
+
+  img {
+    display: block;
+  }
 }
 
 /* desktops 1200px and up */
@@ -297,5 +302,9 @@ header {
 
   .btn {
     font-size: 3.2rem;
+  }
+
+  .content-img {
+    display: block;
   }
 }
